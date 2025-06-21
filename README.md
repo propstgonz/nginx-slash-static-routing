@@ -3,14 +3,14 @@
 ---
 
 ## Table of Contents
-- Introduction  
-- Project Structure  
-- How It Works  
-- Requirements  
-- Usage and Deployment  
-- Important Notes  
-- Recommendations  
-. License
+- [Introduction](#introduction)  
+- [Project Structure](#project-structure)  
+- [How It Works](#how-it-works)  
+- [Requirements](#requirements)  
+- [Usage and Deployment](#usage-and-deployment)  
+- [Important Notes](#important-notes)  
+- [Recommendations](#recommendations)  
+- [License](#license)
 
 ---
 
