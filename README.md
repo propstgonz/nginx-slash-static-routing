@@ -86,7 +86,8 @@ nginx-slash/
 - This project is **only intended for static websites**. It does **not** support server-side rendering, dynamic content, or backend APIs.  
 - The Python preprocessor **modifies your HTML files in place** inside the `html/` folder during build.  
   Always keep a backup or deploy only finalized static content to avoid unwanted changes.  
-- The system relies on consistent `.html` file naming conventions to generate clean URLs. Avoid linking directly to URLs without `.html` in your source files.  
+- The system relies on consistent `.html` file naming conventions to generate clean URLs. Avoid linking directly to URLs without `.html` in your source files.
+- All file paths must be absolute, as relative paths are broken when docker compose is executed.
 - For production, it is highly recommended to run this setup **behind a reverse proxy** that handles TLS certificates, load balancing, and security headers.
 
 ---
